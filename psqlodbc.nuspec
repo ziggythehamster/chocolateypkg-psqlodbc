@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>psqlodbc</id>
+    <version>09.06.0500</version>
+    <packageSourceUrl>https://github.com/ziggythehamster/chocolateypkg-psqlodbc</packageSourceUrl>
+    <owners>ZiggyTheHamster</owners>
+    <title>psqlODBC</title>
+    <authors>PostgreSQL Global Development Group</authors>
+    <projectUrl>https://odbc.postgresql.org/</projectUrl>
+    <copyright>2013 PostgreSQL Global Development Group</copyright>
+    <licenseUrl>http://www.opensource.org/licenses/lgpl-license.php</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>http://git.postgresql.org/gitweb/?p=psqlodbc.git</projectSourceUrl>
+    <docsUrl>https://odbc.postgresql.org/</docsUrl>
+    <mailingListUrl>http://www.postgresql.org/list/pgsql-odbc/</mailingListUrl>
+    <bugTrackerUrl>https://www.postgresql.org/list/pgsql-bugs/</bugTrackerUrl>
+    <tags>psqlodbc postgresql pg odbc</tags>
+    <summary>psqlODBC is the official PostgreSQL ODBC Driver</summary>
+    <description>psqlODBC is the official PostgreSQL ODBC Driver</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
